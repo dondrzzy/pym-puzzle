@@ -1,0 +1,54 @@
+html  {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    background-color: #cfcfcf;
+    padding: 15px;
+    border-radius: 5px;
+}
+#puzzle-wrapper {
+    background-color: #fff;
+}
+
+.footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer button {
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+    outline: none;
+}
+
+.footer span {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
